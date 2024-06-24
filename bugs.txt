@@ -1,0 +1,4 @@
+(06/20/2024) 
+Even when finding a group of three, the program is unable to recognize it and all the player to take their opponent's token. 
+(06/20/2024)
+Bug seems fine now. 
