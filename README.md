@@ -6,7 +6,12 @@ This is a recreation of the board game Nine Men's Morris using pygame.
 
 This serves as a proof of my python coding abilities. 
 
-# Rules
+## Rules
+To begin with, players take turns to play a piece of their own colour on any unoccupied point until all eighteen pieces have been played. After that, play continues alternately but each turn consists of a player moving one piece along a line to an adjacent point.
+
+During both of these phases, whenever a player achieves a mill, that player immediately removes from the board one piece belonging to the opponent that does not form part of a mill. If all the opponents pieces form mills then an exception is made and the player is allowed to remove any piece. It is only upon the formation of a mill that a piece is captured but a player will often break a mill by moving a piece out of it and then, in a subsequent turn, play the piece back again, thus forming a new mill and capturing another piece.
+
+Captured pieces are never replayed onto the board and remain captured for the remainder of the game. The game is finished when a player loses either by being reduced to two pieces or by being unable to move.
 
 ## Setup 
 
