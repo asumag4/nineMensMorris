@@ -28,11 +28,11 @@ cannot jump over other pieces. Each time a mill is formed, an opponent’s piece
 back to the other player. Players can “break” and “remake” mills. When one player has three pieces left, they
 can “jump” their pieces to any vacant point on the board. Play ends when one player only has two pieces left
 
-# How to Play
+## How to Play
 
 To play the game please download the file <em>nineMensMorris.py</em> and run the file locally. 
 
-# Future Steps 
+## Future Steps 
 <ul>
   <li>Remove prominent bugs</li>
   <li>Transfer to JavaScript / React</li>
